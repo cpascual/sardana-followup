@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The [evaluation scheme](http://taurus-scada.org/devel/api/taurus/core/evaluation.html)
+The [evaluation scheme](https://taurus-scada.org/devel/api/taurus.core.evaluation.html)
  is a "swiss-army knife": versatile, handy,...
 
 Useful for doing operations with the values read from other attributes and for
@@ -172,5 +172,5 @@ taurusform 'eval:@c=mymod.MyClass()/c.foo'
 This allows to easily wrap python modules and make them accessible to taurus
 for quick prototyping.
 
-You can find more complex examples [here](https://github.com/taurus-org/taurus/blob/develop/taurus/lib/taurus/core/evaluation/test/res/)
+You can find more complex examples [here](https://gitlab.com/taurus-org/taurus/-/tree/develop/lib/taurus/core/evaluation/test/res)
 
